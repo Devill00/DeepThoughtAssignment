@@ -1,0 +1,170 @@
+.thread{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.threadheader{
+    display: flex;
+    align-items: center;
+    border: 0.1px solid #00000066;
+    background: #FEFFC033;
+    padding: .4rem;
+
+    .threadheading{
+        display: flex;
+        margin-left: 6vw;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .icon{
+        width:16px;
+        height: 10px;
+        padding: .5rem;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+
+    }
+
+}
+
+.subthreadandsubIntrepretationgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    button{
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        background: #0029FF;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 1rem ;
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 12px;
+        cursor: pointer;
+        gap: .4rem;
+        width: 34%;
+    }
+}
+
+.subthread{
+    background: #FEFFC033;
+    border-radius: 10px;
+    height: 119px;;
+    border: 0.1px solid #333333;
+    box-shadow: 1px 3px 8px 0px #00000040;
+
+    .title{
+        font-weight: 450;
+        font-size: 14px;
+        padding: .5rem;
+        font-family: "Open Sans";
+    }
+
+}
+.icongroup{
+    display: flex;
+    gap: .7rem;
+    justify-content: end;
+    align-items: center;
+
+    .icon{
+        width: 20px;
+        height: 21px;
+
+    }
+}
+
+
+.subthreadsummary{
+background: #FEFFC033;
+border-radius: 10px;
+height: 119px;
+border: 0.1px solid #333333;
+box-shadow: 1px 3px 8px 0px #00000040;
+
+.title{
+    font-weight: 450;
+    font-size: 14px;
+    padding: .5rem;
+    font-family: "Open Sans"
+}
+
+}
+
+textarea{
+    width: 100%;
+  height: 85px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 0.1px solid #333333;
+ border-radius: 10px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  resize: none;
+  box-shadow: 1px 3px 8px 0px #00000040;
+opacity: 50%;
+overflow: hidden;
+outline: none;
+font-family: "Open Sans"
+
+}
+
+.plus{
+    width: 15px;
+    height: 15px;
+}
+.selectmenu{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+    align-content: center;
+}
+.menu{
+    display: flex;
+    width: 40%;
+    height: 40px;
+    box-shadow: 0px 2px 4px 0px #00000040;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 12px;
+    outline: none;
+    border: none;
+}
+
+
+
+@media screen and (max-width:1158px){
+   
+.subthread{
+    background: #FEFFC033;
+    border-radius: 10px;
+    height: 129px;;
+    border: 0.1px solid #333333;
+    box-shadow: 1px 3px 8px 0px #00000040;
+
+    .title{
+        font-weight: 450;
+        font-size: 14px;
+        padding: .5rem;
+        font-family: "Open Sans";
+        width: 133px;
+    }
+
+}
+}

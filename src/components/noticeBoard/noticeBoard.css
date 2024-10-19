@@ -1,0 +1,41 @@
+.noticeBoard{
+    width: 6vw;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    margin-top: .8rem;
+    box-shadow: 0px -4px 4px 0px #00000040,0px 4px 4px 0px #00000040;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    top: .5rem;
+}
+
+.sidehead{
+    background: #000;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 44px;
+    letter-spacing: .5rem;
+    align-items: center;
+    padding: .2rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    caret-color: transparent;
+    cursor: default;
+    gap: 1rem;
+    .head{
+         text-orientation: upright;
+    writing-mode: vertical-lr;
+    font-weight: 400;
+    gap: 1rem;
+    }
+}
+.iconn{
+    margin-top: 1.5rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    cursor: pointer;
+    background: none;
+}

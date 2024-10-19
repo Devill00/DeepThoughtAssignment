@@ -1,0 +1,89 @@
+.all{
+  position: relative;
+  padding-bottom: 5rem;
+  margin-bottom: 2rem;
+}
+.main{
+  width: 71%;
+  margin: auto;
+  justify-content: center;
+}
+.headandsubmit{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+button{
+  border-radius: 15px;
+  background: #0029FF;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.mainhead{
+    font-weight: 700;
+    font-size: 28px;
+    color: #0029FF;
+}
+
+.subheadcontainer{
+   padding: 1rem;
+   background: #E9ECEF;
+   margin-top: 2rem;
+   padding: 1.5rem;
+   border-radius: 5px;
+}
+
+.subhead{
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+.description{
+font-weight: 400;
+font-size: 14px;
+margin-top: 1rem;
+}
+.lasticons{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
+
+.icoons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0029FF;
+  border-radius: 50%;
+  color: white;
+  padding: .7rem;
+  width: 39px;
+  height: 42px;
+}
+.assets{
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: auto auto;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+
+
+
+@media screen and (max-width:1115px){
+  .tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+}
